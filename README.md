@@ -25,36 +25,38 @@
 
 ```
 .
-├── LICENSE                    # AGPLv3许可证😡
-├── README.md                 # 就这个
+├── LICENSE
+├── README.md
 └── S30
-    ├── TWRP设备树            # 给编译TWRP用的哦
-    │   └── alps
-    │       └── S30
-    │           ├── Android.bp
-    │           ├── Android.mk
-    │           ├── AndroidProducts.mk
-    │           ├── BoardConfig.mk
-    │           ├── README.md
-    │           ├── device.mk
-    │           ├── extract-files.sh    
-    │           ├── omni_S30.mk
-    │           ├── prebuilt            # 预编译的镜像们你们好，我是Kevin[手动书呆子脸]
-    │           │   ├── bootctrl.mt6771
-    │           │   ├── dtb.img
-    │           │   ├── dtbo.img
-    │           │   └── kernel
-    │           ├── recovery
-    │           │   └── root
-    │           │       ├── init.recovery.mt6771.rc
-    │           │       ├── init.recovery.mt8788.rc
-    │           │       └── ueventd.rc
-    │           ├── recovery.fstab
-    │           ├── setup-makefiles.sh
-    │           └── vendorsetup.sh
-    └── 固件                  # 原厂固件
-        ├── boot_a.img       # boot分区
-        └── vendor_a.img     # vendor分区
+    ├── TWRP
+    │   └── boot.img
+    ├── TWRP设备树
+    │   └── alps
+    │       └── S30
+    │           ├── Android.bp
+    │           ├── Android.mk
+    │           ├── AndroidProducts.mk
+    │           ├── BoardConfig.mk
+    │           ├── README.md
+    │           ├── device.mk
+    │           ├── extract-files.sh
+    │           ├── omni_S30.mk
+    │           ├── prebuilt
+    │           │   ├── bootctrl.mt6771
+    │           │   ├── dtb.img
+    │           │   ├── dtbo.img
+    │           │   └── kernel
+    │           ├── recovery
+    │           │   └── root
+    │           │       ├── init.recovery.mt6771.rc
+    │           │       ├── init.recovery.mt8788.rc
+    │           │       └── ueventd.rc
+    │           ├── recovery.fstab
+    │           ├── setup-makefiles.sh
+    │           └── vendorsetup.sh
+    └── 固件
+        ├── boot_a.img
+        └── vendor_a.img
 ```
 
 `vendor_a.img` 太特么大力，GitHub不让传大文件，**所以用LFS硬塞进去了**。  
