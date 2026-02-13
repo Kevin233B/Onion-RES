@@ -40,6 +40,7 @@
     │           ├── extract-files.sh    
     │           ├── omni_S30.mk
     │           ├── prebuilt            # 预编译的镜像们你们好，我是Kevin[手动书呆子脸]
+    │           │   ├── bootctrl.mt6771
     │           │   ├── dtb.img
     │           │   ├── dtbo.img
     │           │   └── kernel
